@@ -5,6 +5,8 @@ import androidx.annotation.NonNull;
 import java.util.List;
 import java.util.Vector;
 
+//Class that is used as a data context to supply the application with its data.
+//Would be rebuilt to allow for real data to be handled by the app.
 class ApplicationData {
 
     private static List<Destination> destinations;
